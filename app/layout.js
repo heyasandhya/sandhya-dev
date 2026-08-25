@@ -18,8 +18,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="h-full antialiased">
-      <body className={`${outfit.className} min-h-full flex flex-col`}>
+    <html lang="en" className="scroll-smooth ">
+      <body 
+      className={`${outfit.className} antialiased leading-8 overflow-x-hidden`}>
         {children}
       </body>
     </html>
