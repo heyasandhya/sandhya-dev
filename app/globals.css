@@ -11,6 +11,8 @@
    --grid-template-columns-auto: repeat(auto-fit, minmax(200px, 1fr));
 }
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 * {
   font-family: Outfit;
 }
