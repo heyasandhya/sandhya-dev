@@ -32,18 +32,18 @@ const About = ({ isDarkMode }) => {
 					whileInView={{ opacity: 1, scale: 1 }}
 					transition={{ duration: 0.6 }}
 					className='w-64 sm:w-80 rounded-3xl max-w-none'>
-					<Image src={assets.user_image} alt='user' className='w-full rounded-3xl' />
+					<Image src={assets.profile_img} alt='user' className='w-full rounded-3xl' />
 				</motion.div>
 
 				<motion.div
 					initial={{ opacity: 0 }}
 					whileInView={{ opacity: 1 }}
 					transition={{ duration: 0.6, delay: 0.8 }} className='flex-1'>
-					<p className='mb-10 max-w-2xl font-ovo'>
-						I turn ideas into clean, interactive digital experiences.
-						I craft modern interfaces where design meets thoughtful code.
-						Always exploring, building, and pushing pixels a little further.
-						Focused on creating web experiences that people enjoy using.
+					<p className="mb-10 max-w-2xl font-ovo">
+						I’m a Computer Science graduate and MERN Stack Developer passionate about
+						building responsive, user-focused web applications. I enjoy turning ideas
+						into practical digital experiences using modern web technologies, while
+						strengthening my problem-solving skills through DSA.
 					</p>
 
 					<motion.ul
@@ -72,12 +72,12 @@ const About = ({ isDarkMode }) => {
 					<motion.ul
 						initial={{ opacity: 0 }}
 						whileInView={{ opacity: 1 }}
-						transition={{delay:1.5 ,duration: 0.6 }}
+						transition={{ delay: 1.5, duration: 0.6 }}
 						className='flex items-center gap-3 sm:gap-5'>
 						{toolsData.map((tool, index) => (
-							<motion.li 
-							whileHover={{scale:1.1}}
-							className='flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500 ' key={index}>
+							<motion.li
+								whileHover={{ scale: 1.1 }}
+								className='flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500 ' key={index}>
 								<Image src={tool} alt='Tool' className='w-5 sm:w-7' />
 							</motion.li>
 						))}
