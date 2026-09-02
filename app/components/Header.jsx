@@ -10,7 +10,7 @@ const Header = () => {
 				initial={{ scale: 0 }}
 				whileInView={{ scale: 1 }}
 				transition={{ duration: 0.8, type: 'spring', stiffness: 100 }}>
-				<Image src={assets.profile_img} alt='' className='rounded-full w-32' />
+				<Image src={assets.profile_img} alt='' className='rounded-full w-40 md:w-44' />
 			</motion.div>
 			<motion.h3
 				initial={{ y: -20, opacity: 0 }}
@@ -21,8 +21,8 @@ const Header = () => {
 				initial={{ y: -30, opacity: 0 }}
 				whileInView={{ y: 0, opacity: 1 }}
 				transition={{ duration: 0.8, delay: 0.5 }}
-				className='text-3xl sm:text-6xl lg:text-[66px] font-ovo'>
-				frontend web developer based in london.</motion.h1>
+				className='text-2xl sm:text-5xl lg:text-[56px] font-ovo'>
+				MERN Stack Developer building ideas into digital experiences.</motion.h1>
 			<motion.p
 				initial={{ opacity: 0 }}
 				whileInView={{ opacity: 1 }}
