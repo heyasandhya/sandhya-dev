@@ -15,7 +15,7 @@ import logo from './logo.png';
 import logo_dark from './logo_dark.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
-import profile_img from './profile-img.png';
+import profile_img from './profile-img.jpg';
 import download_icon from './download-icon.png';
 import hand_icon from './hand-icon.png';
 import header_bg_color from './header-bg-color.png';
@@ -28,13 +28,16 @@ import menu_white from './menu-white.png';
 import close_black from './close-black.png';
 import close_white from './close-white.png';
 import web_icon from './web-icon.png';
-import mobile_icon from './mobile-icon.png';
-import ui_icon from './ui-icon.png';
-import graphics_icon from './graphics-icon.png';
+import react_icon from './react-icon.png';
+import stack_icon from './stack-icon.png';
+import node_icon from './node-icon.png';
 import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import react from './react-logo.png';
+import nodejs from './node_logo.png';
+import cpp from './c++_logo.png';
 
 export const assets = {
     user_image,
@@ -49,6 +52,9 @@ export const assets = {
     figma,
     git,
     mongodb,
+    react,
+    nodejs,
+    cpp,
     right_arrow_white,
     logo,
     logo_dark,
@@ -67,9 +73,9 @@ export const assets = {
     close_black,
     close_white,
     web_icon,
-    mobile_icon,
-    ui_icon,
-    graphics_icon,
+    react_icon,
+    stack_icon,
+    node_icon,
     right_arrow,
     send_icon,
     right_arrow_bold,
@@ -100,18 +106,42 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
-]
+    {
+        icon: react_icon,
+        title: 'Frontend Development',
+        description: 'Building responsive and interactive user interfaces using React, JavaScript, and modern web technologies.',
+        link: '#work'
+    },
+    {
+        icon: assets.stack_icon,
+        title: 'Full Stack Development',
+        description: 'Developing complete web applications using the MERN stack with a focus on performance and usability.',
+        link: '#work'
+    },
+    {
+        icon: assets.node_icon,
+        title: 'Backend Development',
+        description: 'Creating reliable server-side applications and APIs using Node.js, Express, and MongoDB.',
+        link: '#work'
+    },
+    {
+        icon: assets.web_icon,
+        title: 'Web Application Development',
+        description: 'Turning ideas into clean, responsive, and user-friendly web applications with modern technologies.',
+        link: '#work'
+    }
+];
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Development', description: 'MERN Stack, JavaScript, React, Node.js, Next Js' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built 4 real-world projects' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode,
+    assets.mongodb,
+    assets.react,
+    assets.nodejs,
+    assets.cpp,
 ];
