@@ -83,11 +83,12 @@ export const assets = {
 };
 
 export const workData = [
-    {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
-    },
+   {
+    title: 'Movix',
+    description: 'Movie Discovery Web App',
+    bgImage: '/work-1.png',
+    link: 'https://movix-chi-opal.vercel.app/',
+},
     {
         title: 'Geo based app',
         description: 'Mobile App',
