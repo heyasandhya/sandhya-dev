@@ -83,21 +83,23 @@ export const assets = {
 };
 
 export const workData = [
-   {
-    title: 'Movix',
-    description: 'Movie Discovery Web App',
-    bgImage: '/work-1.png',
-    link: 'https://movix-chi-opal.vercel.app/',
-},
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
+        title: 'Movix',
+        description: 'Movie Discovery Web App',
+        bgImage: '/work1.png',
+        link: 'https://movix-chi-opal.vercel.app/',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
+        title: 'Synco',
+        description: 'AI based Job Preparation platform',
+        bgImage: '/work2.png',
+        link: 'https://github.com/heyasandhya/synco',
+    },
+    {
+        title: 'Live Weather App',
+        description: 'Real-Time Weather Application',
+        bgImage: '/work3.png',
+        link: 'https://github.com/heyasandhya/Weather-Tracker',
     },
     {
         title: 'UI/UX designing',
