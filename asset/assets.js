@@ -129,7 +129,7 @@ export const serviceData = [
     },
     {
         icon: assets.web_icon,
-        title: 'Web Application Development',
+        title: 'Web Development',
         description: 'Turning ideas into clean, responsive, and user-friendly web applications with modern technologies.',
         link: '#work'
     }

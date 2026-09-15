@@ -24,7 +24,7 @@ const Services = () => {
 				initial={{ opacity: 0 }}
 				whileInView={{ opacity: 1 }}
 				transition={{ delay: 0.7, duration: 0.5 }}
-				className='text-center max-w-2xl mx-auto mt-5 mb-12 font-ovo'>I build modern, responsive websites with clean and intuitive interfaces.
+				className='text-center max-w-2xl mx-auto mt-5 mb-12 font-ovo tracking-[0.02em]'>I build modern, responsive websites with clean and intuitive interfaces.
 				I turn ideas into smooth, engaging digital experiences that feel effortless to use.
 				Focused on clean code, thoughtful design, performance, and seamless user experiences.</motion.p>
 
@@ -37,11 +37,11 @@ const Services = () => {
 					<motion.div
 						whileHover={{ scale: 1.05 }}
 						key={index}
-						className='border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 dark:hover:bg-darkHover dark:hover:shadow-white'>
+						 className='border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 dark:hover:bg-darkHover dark:border-white/50 dark:hover:shadow-white flex flex-col'>
 						<Image src={icon} alt='' className='w-10' />
 						<motion.h3 className='text-lg my-4 text-gray-700 dark:text-white'>{title}</motion.h3>
 						<p className='text-sm text-gray-600 leading-5 dark:text-white/80'>{description}</p>
-						<a href={link} className='flex items-center gap-2 text-sm mt-5'>Read more <Image alt='' src={assets.right_arrow} className='w-4' /></a>
+						<a href={link} className='flex items-center gap-2 text-sm mt-auto pt-5'>Read more <Image alt='' src={assets.right_arrow} className='w-4' /></a>
 					</motion.div>
 				))}
 			</motion.div>
